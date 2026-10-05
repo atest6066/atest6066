@@ -43,7 +43,7 @@ jobs:
           # Used to specify a package manager for caching in the default directory. Supported values: npm, yarn, pnpm.
           cache: yarn
           # Used to specify the path to a dependency file: package-lock.json, yarn.lock, etc. Supports wildcards or a list of file names for caching multiple dependencies.
-          cache-dependency-path: yarn.lock
+          # cache-dependency-path: yarn.lock
       
       - name: Install dependencies
         run: npm ci
